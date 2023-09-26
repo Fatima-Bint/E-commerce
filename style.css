@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+font-family: 'Poppins', sans-serif;
+  }
+
+  h5{
+    color: #191919;
+  }
+
+  h6{
+    font-weight: 300;
+    font-size: 18px;
+    color: #7F7F7F;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    min-height: 100vh;  
+    max-height: 100vh;  
+    width: 100%;       
+}
+
+#black-dress{
+  transform: scaleX(-1);
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.item img{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    /*box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);*/
+}
+.item h5{
+  text-align: left;
+}
+
+.add-to-cart:hover {
+    background-color: #5cb85c; /* A shade darker than Bootstrap's success color */
+}
